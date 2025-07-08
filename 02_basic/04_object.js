@@ -58,9 +58,25 @@ const users = [  {
 
 //console.log(users[1].email)
 
-console.log(tinderUser)
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+//console.log(tinderUser)
+//console.log(Object.keys(tinderUser))
+//console.log(Object.values(tinderUser))
+//console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('name'))
+//console.log(tinderUser.hasOwnProperty('name'))
+
+
+
+
+// = >> Object De- structure 
+
+const course = {
+    subject : " hindi",
+    price : "999",
+    courseInstructor : "aman"
+}
+
+const {courseInstructor: Instructor} = course
+
+//console.log(courseInstructor);
+console.log(Instructor)
