@@ -41,5 +41,39 @@ function loginUserMessage(username) { // =>> (username = "sam") to get deafault 
 }
 
 
-console.log(loginUserMessage('Aman'))
+//console.log(loginUserMessage('Aman'))
 
+function CalculateCartPrice(var1, var2, ...num1){
+    return num1
+}
+
+//console.log(CalculateCartPrice(1000, 5000, 3000))
+
+const user = {
+    username : "Aman",
+    price : 199
+}
+
+function handleObj(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+
+//handleObj(user)
+
+// object can define on calling the funtion for object and key must be same in functions and object 
+/**handleObj({
+    username: "Anuj",
+    price: 299
+})**/
+
+
+// Same for array
+
+const myArr = [100,200,300,500]
+
+function returnSecondValue(anyArr){
+    return anyArr[1]
+}
+
+//console.log(returnSecondValue(myArr))
+console.log(returnSecondValue([500,256,300,476]))
