@@ -76,4 +76,4 @@ function returnSecondValue(anyArr){
 }
 
 //console.log(returnSecondValue(myArr))
-console.log(returnSecondValue([500,256,300,476]))
+//console.log(returnSecondValue([500,256,300,476]))
