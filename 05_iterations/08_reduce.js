@@ -32,4 +32,4 @@ const myshoppingCart = [
 
 const priceToPay = myshoppingCart.reduce((acc, item ) => item.price + acc, 0)
 
-console.log(priceToPay)
+console.log(priceToPay) 
